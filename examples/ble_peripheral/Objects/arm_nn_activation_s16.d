@@ -1,0 +1,13 @@
+./objects/arm_nn_activation_s16.o: \
+  C:\Keil_V5\ARM\PACK\ARM\CMSIS-NN\6.0.0\Source\ActivationFunctions\arm_nn_activation_s16.c \
+  Z:\tflite-micro\tensorflow\lite\micro\tools\make\downloads\cmsis_nn\Include\arm_nn_tables.h \
+  Z:\tflite-micro\tensorflow\lite\micro\tools\make\downloads\cmsis_nn\Include\arm_nn_math_types.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\limits.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__config \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\limits.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\stdint.h \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\string.h \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\string.h \
+  Z:\tflite-micro\tensorflow\lite\micro\tools\make\downloads\cmsis_nn\Include\arm_nnfunctions.h \
+  Z:\tflite-micro\tensorflow\lite\micro\tools\make\downloads\cmsis_nn\Include\arm_nn_types.h

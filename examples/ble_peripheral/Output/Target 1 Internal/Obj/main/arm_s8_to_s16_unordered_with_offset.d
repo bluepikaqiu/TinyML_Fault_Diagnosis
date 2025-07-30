@@ -1,0 +1,16 @@
+Output/Target\ 1\ Internal/Obj/main/arm_s8_to_s16_unordered_with_offset.o: \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/NNSupportFunctions/arm_s8_to_s16_unordered_with_offset.c \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nnsupportfunctions.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/Internal/arm_nn_compiler.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/arm_acle.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/gcc/arm_acle.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/stdint.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/__SEGGER_RTL.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/__SEGGER_RTL_ConfDefaults.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/__SEGGER_RTL_Conf.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/__SEGGER_RTL_Arm_Conf.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nn_math_types.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/limits.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/string.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nn_types.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/stdbool.h

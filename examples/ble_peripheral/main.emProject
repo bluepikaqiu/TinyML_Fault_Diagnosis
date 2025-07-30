@@ -1,0 +1,377 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="main" target="8" version="2">
+  <configuration Name="Internal" Platform="ARM" hidden="Yes" />
+  <configuration Name="Target 1" hidden="Yes" />
+  <configuration
+    Name="Target 1 Internal"
+    inherited_configurations="Internal;Target 1" />
+  <project Name="main">
+    <configuration
+      CMSIS_CORE="Yes"
+      CMSIS_DSP="No"
+      LIBRARY_IO_TYPE="RTT"
+      Name="Common"
+      SEGGERLibMode="Debug build (d)"
+      arm_architecture="v7EM"
+      arm_assembler_variant="SEGGER Assembler"
+      arm_compiler_variant="gcc"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fp_abi="Soft"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_linker_heap_size="16384"
+      arm_linker_stack_size="16384"
+      arm_linker_variant="SEGGER"
+      arm_target_device_name="nRF52840_xxAA"
+      arm_target_interface_type="SWD"
+      cpp_enable_exceptions="Yes"
+      debug_start_from_entry_point_symbol="No"
+      debug_target_connection="J-Link"
+      gcc_c_language_standard="c99"
+      gcc_cplusplus_language_standard="c++17"
+      link_linker_script_file="$(StudioDir)/samples/SEGGER_Flash.icf"
+      linker_printf_fmt_level="long"
+      linker_printf_fp_enabled="Float"
+      linker_printf_width_precision_supported="Yes"
+      linker_scanf_fmt_level="long"
+      linker_section_placements_segments="FLASH1 RX 0x0 0x100000;RAM1 RWX 0x20000000 0x40000"
+      project_directory=""
+      project_type="Executable" />
+    <configuration
+      Name="External Keil ARMCLANG"
+      asm_additional_options="--cpu=Cortex-M4"
+      c_additional_options="-mcpu=Cortex-M4;-g"
+      linker_additional_options="--cpu=Cortex-M4" />
+    <configuration
+      LIBRARY_IO_TYPE="RTT"
+      Name="Internal"
+      arm_compiler_variant="gcc"
+      arm_linker_heap_size="16384"
+      arm_linker_stack_size="16384" />
+    <configuration
+      BUILD_OPTIONS="None"
+      CMSIS_CORE="Yes"
+      CMSIS_DSP="No"
+      LIBRARY_IO_TYPE="RTT"
+      Name="Target 1"
+      arm_architecture="v7EM"
+      arm_assembler_variant="gcc"
+      arm_compiler_variant="gcc"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fp_abi="Soft"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_linker_heap_size="16384"
+      arm_linker_stack_size="16384"
+      arm_linker_variant="SEGGER"
+      arm_target_device_name="nRF52840_xxAA"
+      armasm_cl_cpu="Cortex-M4"
+      armclang_cl_cpu="Cortex-M4"
+      build_generic_options_file_name=""
+      c_preprocessor_definitions="BOARD_PCA10056;NRF52840_XXAA;CONFIG_GPIO_AS_PINRESET;ARM_MATH_DSP;ARM_MATH_AUTOVECTORIZE;CMSIS_NN"
+      c_user_include_directories="../../drive;../../components/drivers_nrf/nrf_soc_nosd;../../components/boards;../../components/libraries/balloc;../../components/libraries/util;../../components/libraries/atomic;../../components/libraries/balloc;../../components/libraries/bsp;../../components/libraries/delay;../../components/libraries/experimental_section_vars;../../components/libraries/log/src;../../components/libraries/memobj;../../components/libraries/ringbuf;../../components/libraries/strerror;../../components/libraries/util;../../integration/nrfx;../../modules/nrfx;../../modules/nrfx/hal;../../config;../../modules/nrfx/drivers/include;../../modules/nrfx/drivers/src/prs;../../modules/nrfx/drivers;../../modules/nrfx/templates;../../modules/nrfx/soc;../../modules/nrfx/mdk;../../components/libraries/log;../../integration/nrfx/legacy;../../components/boards;../../config/nrf52840/config;../../modules/nrfx/drivers/src;../../components/libraries/fifo;../../components/libraries/uart;./fft;../../components/libraries/log/;Z:/tflite-micro;Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/ruy;../ble_peripheral;./third_party/gemmlowp;./third_party/flatbuffers/include;./clustering;C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Include;C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Include/dsp;Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include;Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/;C:/nrf52840/my_demo/examples/ble_peripheral/feature_extraction"
+      cpp_enable_exceptions="Yes"
+      debug_type_file="$(StudioDir)/bin/libc++.xml"
+      gcc_c_language_standard="c99"
+      gcc_cplusplus_language_standard="c++17"
+      gcc_debugging_level="Level 2"
+      gcc_enable_coroutines="No"
+      gcc_enable_modules="No"
+      libcxx="Yes"
+      linker_memory_map_file=""
+      linker_memory_map_macros=""
+      linker_output_format="hex"
+      linker_printf_fmt_level="long"
+      linker_printf_fp_enabled="Float"
+      linker_printf_width_precision_supported="Yes"
+      linker_scanf_fmt_level="long"
+      linker_section_placements_segments="FLASH1 RX 0x0 0x100000;RAM1 RWX 0x20000000 0x40000"
+      macros="CMSIS_CONFIG_TOOL=C:\\Users\\Yanfeng\\Downloads\\CMSIS_Configuration_Wizard_v0.0.7\\CMSIS_Configuration_Wizard.jar" />
+    <configuration
+      CMSIS_CORE="Yes"
+      CMSIS_DSP="No"
+      LIBRARY_IO_TYPE="RTT"
+      Name="Target 1 Internal"
+      arm_assembler_variant="gcc"
+      arm_compiler_variant="gcc"
+      arm_linker_heap_size="16384"
+      arm_linker_stack_size="16384"
+      build_exclude_from_build="No"
+      gcc_c_language_standard="c99"
+      gcc_cplusplus_language_standard="c++17"
+      gcc_enable_coroutines="No"
+      gcc_enable_modules="No"
+      link_linker_script_file="$(StudioDir)/samples/SEGGER_Flash.icf"
+      use_compiler_driver="No" />
+    <folder Name="::CMSIS">
+      <folder Name="CMSIS-DSP">
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/BasicMathFunctions/BasicMathFunctions.c" />
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/BayesFunctions/BayesFunctions.c" />
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/CommonTables/CommonTables.c" />
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/ComplexMathFunctions/ComplexMathFunctions.c" />
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/ControllerFunctions/ControllerFunctions.c" />
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/DistanceFunctions/DistanceFunctions.c" />
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/FastMathFunctions/FastMathFunctions.c" />
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/FilteringFunctions/FilteringFunctions.c" />
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/InterpolationFunctions/InterpolationFunctions.c" />
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/MatrixFunctions/MatrixFunctions.c" />
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/QuaternionMathFunctions/QuaternionMathFunctions.c" />
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/StatisticsFunctions/StatisticsFunctions.c" />
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/SVMFunctions/SVMFunctions.c" />
+        <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/TransformFunctions/TransformFunctions.c" />
+      </folder>
+      <folder Name="CMSIS-NN">
+        <configuration Name="Target 1" build_exclude_from_build="Yes" />
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="Yes" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/PoolingFunctions/arm_avgpool_get_buffer_sizes_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/PoolingFunctions/arm_avgpool_get_buffer_sizes_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/PoolingFunctions/arm_avgpool_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/PoolingFunctions/arm_avgpool_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_1x1_s4.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_1x1_s4_fast.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_1x1_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_fast_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_get_buffer_sizes_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_get_buffer_sizes_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_s4.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_wrapper_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_wrapper_s4.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_get_buffer_sizes_s4.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_get_buffer_sizes_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_s4.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_s4_opt.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s4.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/FullyConnectedFunctions/arm_fully_connected_get_buffer_sizes_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/FullyConnectedFunctions/arm_fully_connected_get_buffer_sizes_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/FullyConnectedFunctions/arm_fully_connected_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/FullyConnectedFunctions/arm_fully_connected_s4.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/FullyConnectedFunctions/arm_fully_connected_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/PoolingFunctions/arm_max_pool_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/PoolingFunctions/arm_max_pool_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/NNSupportFunctions/arm_nn_mat_mul_kernel_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s4_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s4.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/SoftmaxFunctions/arm_nn_softmax_common_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s4.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/NNSupportFunctions/arm_s8_to_s16_unordered_with_offset.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/SoftmaxFunctions/arm_softmax_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/SoftmaxFunctions/arm_softmax_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/SoftmaxFunctions/arm_softmax_s8_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/FullyConnectedFunctions/arm_vector_sum_s8.c" />
+      </folder>
+    </folder>
+    <folder Name="::Compiler" />
+    <folder Name="::Device" />
+    <folder Name="Board Definition">
+      <file file_name="../../components/boards/boards.c" />
+    </folder>
+    <folder Name="Clustering">
+      <file file_name="./clustering/fcm_method.cc">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="./clustering/fcm_method.h" />
+    </folder>
+    <folder Name="drive">
+      <file file_name="./led.c" />
+      <file file_name="../../integration/nrfx/legacy/nrf_drv_uart.c" />
+      <file file_name="../../modules/nrfx/drivers/src/prs/nrfx_prs.c" />
+      <file file_name="../../modules/nrfx/drivers/src/nrfx_uart.c" />
+      <file file_name="../../modules/nrfx/drivers/src/nrfx_uarte.c" />
+    </folder>
+    <folder Name="DSP/FFT">
+      <file file_name="fft/src/asm/arm/cr4_fft_1024_stm32.s">
+        <configuration Name="Internal" build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="./fft/src/asm/arm/cr4_fft_256_stm32.s">
+        <configuration Name="Internal" build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="./fft/src/asm/arm/cr4_fft_64_stm32.s">
+        <configuration Name="Internal" build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="./fft/FFT_instance.c" />
+      <file file_name="./fft/FFT_instance.h" />
+      <file file_name="./fft/inc/table_fft.h" />
+      <file file_name="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Source/WindowFunctions/WindowFunctions.c" />
+    </folder>
+    <folder Name="Fault Diagnosis">
+      <file file_name="fault_diagnosis/common_internal.cc" />
+      <file file_name="fault_diagnosis/confusion_matrix_and_metrics.c" />
+      <file file_name="fault_diagnosis/confusion_matrix_and_metrics.h" />
+      <file file_name="fault_diagnosis/constants.cc" />
+      <file file_name="fault_diagnosis/constants.h" />
+      <file file_name="fault_diagnosis/Gaussian_bayes.c">
+        <configuration
+          Name="Target 1 Internal"
+          analyze_after_compile="Yes"
+          build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="fault_diagnosis/Gaussian_bayes.h" />
+      <file file_name="fault_diagnosis/kernel_util.cc" />
+      <file file_name="fault_diagnosis/main_functions.cc">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="No" />
+      </file>
+      <file file_name="fault_diagnosis/main_functions.h" />
+      <file file_name="fault_diagnosis/micro_kernel_util.cc" />
+      <file file_name="fault_diagnosis/model_keras_to_tflite.cc" />
+      <file file_name="fault_diagnosis/model_keras_to_tflite.h" />
+      <file file_name="fault_diagnosis/svm_params.c">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="No" />
+      </file>
+      <file file_name="fault_diagnosis/svm_params.h" />
+    </folder>
+    <folder Name="Feature Extraction">
+      <file file_name="feature_extraction/features_extraction.c" />
+      <file file_name="feature_extraction/features_extraction.h" />
+      <file file_name="feature_extraction/filtering_preprocessing.c" />
+      <file file_name="feature_extraction/filtering_preprocessing.h" />
+      <file file_name="feature_extraction/frequency_integral.c" />
+      <file file_name="feature_extraction/frequency_integral.h" />
+      <file file_name="feature_extraction/hilbert_and_envelope_signal.c" />
+      <file file_name="feature_extraction/hilbert_and_envelope_signal.h" />
+      <file file_name="feature_extraction/integration.c" />
+      <file file_name="feature_extraction/integration.h" />
+    </folder>
+    <folder Name="Internal Files">
+      <file file_name="$(StudioDir)/samples/Cortex_M_Startup.s" />
+      <file file_name="$(StudioDir)/samples/SEGGER_THUMB_Startup.s" />
+    </folder>
+    <folder Name="lib">
+      <file file_name="../../components/libraries/util/app_error.c" />
+      <file file_name="../../components/libraries/util/app_error_weak.c" />
+      <file file_name="../../components/libraries/fifo/app_fifo.c" />
+      <file file_name="../../components/libraries/uart/app_uart_fifo.c" />
+      <file file_name="../../components/libraries/util/app_util_platform.c" />
+      <file file_name="../../components/libraries/util/nrf_assert.c" />
+      <file file_name="../../components/libraries/strerror/nrf_strerror.c" />
+      <file file_name="../../components/libraries/uart/retarget.c" />
+    </folder>
+    <folder Name="main">
+      <configuration Name="Common" arm_compiler_variant="gcc" />
+      <configuration Name="Target 1 Internal" build_exclude_from_build="No" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/core/c/common.cc">
+        <configuration Name="Common" arm_compiler_variant="gcc" />
+        <configuration
+          Name="Target 1 Internal"
+          arm_compiler_variant="gcc"
+          is_cpp_project="Detect" />
+      </file>
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/debug_log.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/core/api/error_reporter.cc" />
+      <file file_name="Z:/tflite-micro/bazel-tflite-micro/tensorflow/lite/core/api/error_reporter.h" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/core/api/flatbuffer_conversions.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tflite_bridge/flatbuffer_conversions_bridge.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/flatbuffer_utils.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc" />
+      <file file_name="./main.cc">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="No" />
+      </file>
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/memory_helpers.cc">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="No" />
+      </file>
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/micro_allocation_info.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/micro_allocator.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/micro_context.cc" />
+      <file file_name="Z:/tflite-micro/bazel-tflite-micro/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/micro_interpreter.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/micro_interpreter_context.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/micro_interpreter_graph.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/micro_log.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/micro_op_resolver.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/micro_resource_variable.cc" />
+      <file file_name="Z:/tflite-micro/bazel-tflite-micro/tensorflow/lite/micro/micro_utils.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/arena_allocator/non_persistent_arena_buffer_allocator.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/arena_allocator/persistent_arena_buffer_allocator.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/kernels/internal/portable_tensor_utils.cc" />
+      <file file_name="raw_rcc_data_x_pre_process.c">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="No" />
+      </file>
+      <file file_name="./raw_rcc_data_x_pre_process.h">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="No" />
+      </file>
+      <file file_name="Z:/tflite-micro/tensorflow/lite/schema/schema_utils.cc">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="No" />
+      </file>
+      <file file_name="../../config/nrf52840/config/sdk_config.h">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="No" />
+      </file>
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.cc" />
+      <file file_name="Z:/tflite-micro/bazel-tflite-micro/tensorflow/lite/kernels/internal/tensor_ctypes.cc" />
+    </folder>
+    <folder Name="TFLM Kernels">
+      <configuration Name="Target 1 Internal" build_exclude_from_build="No" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/add.cc">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/add_common.cc">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/conv.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/conv_common.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/depthwise_conv.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/depthwise_conv_common.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/dequantize.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/dequantize_common.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/fully_connected.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/fully_connected_common.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/mul_common.cc">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/pooling.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/pooling_common.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/quantize.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/quantize_common.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/reshape.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/reshape_common.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/softmax.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/softmax_common.cc" />
+    </folder>
+  </project>
+</solution>

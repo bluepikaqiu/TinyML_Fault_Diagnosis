@@ -1,0 +1,29 @@
+./objects/micro_profiler.o: \
+  C:\Keil_V5\ARM\PACK\tensorflow\tensorflow-lite-micro\1.23.2\tensorflow\lite\micro\micro_profiler.cpp \
+  RTE\_Target_1\Pre_Include_Global.h \
+  Z:\tflite-micro\tensorflow\lite\micro\micro_profiler.h \
+  Z:\tflite-micro\tensorflow\lite\micro\compatibility.h \
+  Z:\tflite-micro\tensorflow\lite\micro\micro_profiler_interface.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cstdint \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__config \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\stdint.h \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cinttypes \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\inttypes.h \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cstring \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\string.h \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\string.h \
+  Z:\tflite-micro\tensorflow\lite\kernels\internal\compatibility.h \
+  Z:\tflite-micro\tensorflow\lite\kernels\op_macros.h \
+  Z:\tflite-micro\tensorflow\lite\micro\micro_log.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cstdarg \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cstddef \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\version \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__nullptr \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cstdlib \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\stdlib.h \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  Z:\tflite-micro\tensorflow\lite\micro\micro_time.h

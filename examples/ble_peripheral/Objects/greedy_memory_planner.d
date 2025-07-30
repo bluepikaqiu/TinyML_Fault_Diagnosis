@@ -1,0 +1,33 @@
+./objects/greedy_memory_planner.o: \
+  Z:\tflite-micro\tensorflow\lite\micro\memory_planner\greedy_memory_planner.cc \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\memory_planner\greedy_memory_planner.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\compatibility.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\memory_planner\micro_memory_planner.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\c\common.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\core\c\common.h \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\stdbool.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__config \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\stddef.h \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__nullptr \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\stdint.h \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\core\c\c_api_types.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cstdint \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cstddef \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\version \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\utility \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__tuple \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\type_traits \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\initializer_list \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cstring \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\string.h \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\string.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__debug \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\iosfwd \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\wchar.h \
+  C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\wchar.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\micro_log.h \
+  C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cstdarg
