@@ -29,7 +29,7 @@ A TinyML edge MCU fault diagnosis solution based on the CMSIS-DSP, CMSIS-NN, and
 
 ### Multi-Spectral Feature Extraction Layer（MSFE）
 
-![Github_MSFE](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_MSFE.png?raw=true)
+![Github_MSFE](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_MSFE.png)
 
 
 
@@ -45,7 +45,7 @@ A TinyML edge MCU fault diagnosis solution based on the CMSIS-DSP, CMSIS-NN, and
 
 **Test bench**
 
-![Github_CWRU_test_rig](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_CWRU_test_rig.png?raw=true)
+![Github_CWRU_test_rig](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_CWRU_test_rig.png)
 
 DE - drive end accelerometer data
 
@@ -57,25 +57,25 @@ time - time series data
 
 RPM - rpm during testing
 
-![Github_CWRU_Data](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_CWRU_Data.png?raw=true)
+![Github_CWRU_Data](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_CWRU_Data.png)
 
 
 
 **Result**
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_0HP_1797RPM_10C_ML_Methods_Metrics.png?raw=true)
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_0HP_1797RPM_10C_ML_Methods_Metrics.png)
 
-![Github_1HP_1772RPM_10C_ML_Methods_Metrics](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_1HP_1772RPM_10C_ML_Methods_Metrics.png?raw=true)
+![Github_1HP_1772RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_1HP_1772RPM_10C_ML_Methods_Metrics.png)
 
-![Github_2HP_1750RPM_10C_ML_Methods_Metrics](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_2HP_1750RPM_10C_ML_Methods_Metrics.png?raw=true)
+![Github_2HP_1750RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_2HP_1750RPM_10C_ML_Methods_Metrics.png)
 
-![Github_FLASH_RAM_Inferring_Time_ML_Methods](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_FLASH_RAM_Inferring_Time_ML_Methods.png?raw=true)
+![Github_FLASH_RAM_Inferring_Time_ML_Methods](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_FLASH_RAM_Inferring_Time_ML_Methods.png)
 
-![Github_TFLM_VS_TFLM-CMSIS-NN_FLASH](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_TFLM_VS_TFLM-CMSIS-NN_FLASH.png?raw=true)
+![Github_TFLM_VS_TFLM-CMSIS-NN_FLASH](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_TFLM_VS_TFLM-CMSIS-NN_FLASH.png)
 
-![Github_TFLM_VS_TFLM-CMSIS-NN_RAM](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_TFLM_VS_TFLM-CMSIS-NN_RAM.png?raw=true)
+![Github_TFLM_VS_TFLM-CMSIS-NN_RAM](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_TFLM_VS_TFLM-CMSIS-NN_RAM.png)
 
-![Github_TFLM_VS_TFLM-CMSIS-NN_Inferring_Time](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_TFLM_VS_TFLM-CMSIS-NN_Inferring_Time.png?raw=true)
+![Github_TFLM_VS_TFLM-CMSIS-NN_Inferring_Time](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_TFLM_VS_TFLM-CMSIS-NN_Inferring_Time.png)
 
 **Still under improvement**
 
