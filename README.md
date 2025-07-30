@@ -5,7 +5,7 @@ A TinyML edge MCU fault diagnosis solution based on the CMSIS-DSP, CMSIS-NN, and
 
 ## IDE and Toolchain Environment
 
-​		The selected MCU development board for the project is **Nordic NRF52840 DK**(**SDK Version：17.1.0**)
+​		The selected low-cost/low-performance MCU development board for the project is **Nordic NRF52840 DK**(**ARM Cortex-M4, 1MB Flash, 256KB RAM, SDK Version：17.1.0**)
 
 ​		The IDE software used in this project is **Keil u5** and **SEGGER Embedded Studio V8.24**.
 
@@ -29,7 +29,7 @@ A TinyML edge MCU fault diagnosis solution based on the CMSIS-DSP, CMSIS-NN, and
 
 ### Multi-Spectral Feature Extraction Layer（MSFE）
 
-![Github_MSFE](C:\Users\Yanfeng\Downloads\Github_pictures\Github_MSFE.png)
+![Github_MSFE](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_MSFE.png)
 
 
 
@@ -45,7 +45,7 @@ A TinyML edge MCU fault diagnosis solution based on the CMSIS-DSP, CMSIS-NN, and
 
 **Test bench**
 
-![Github_CWRU_test_rig](C:\Users\Yanfeng\Downloads\Github_pictures\Github_CWRU_test_rig.png)
+![Github_CWRU_test_rig](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_CWRU_test_rig.png)
 
 DE - drive end accelerometer data
 
@@ -57,25 +57,25 @@ time - time series data
 
 RPM - rpm during testing
 
-![Github_CWRU_Data](C:\Users\Yanfeng\Downloads\Github_pictures\Github_CWRU_Data.png)
+![Github_CWRU_Data](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_CWRU_Data.png)
 
 
 
 **Result**
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](C:\Users\Yanfeng\Downloads\Github_pictures\Github_0HP_1797RPM_10C_ML_Methods_Metrics.png)
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_0HP_1797RPM_10C_ML_Methods_Metrics.png)
 
-![Github_1HP_1772RPM_10C_ML_Methods_Metrics](C:\Users\Yanfeng\Downloads\Github_pictures\Github_1HP_1772RPM_10C_ML_Methods_Metrics.png)
+![Github_1HP_1772RPM_10C_ML_Methods_Metrics](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_1HP_1772RPM_10C_ML_Methods_Metrics.png)
 
-![Github_2HP_1750RPM_10C_ML_Methods_Metrics](C:\Users\Yanfeng\Downloads\Github_pictures\Github_2HP_1750RPM_10C_ML_Methods_Metrics.png)
+![Github_2HP_1750RPM_10C_ML_Methods_Metrics](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_2HP_1750RPM_10C_ML_Methods_Metrics.png)
 
-![Github_FLASH_RAM_Inferring_Time_ML_Methods](C:\Users\Yanfeng\Downloads\Github_pictures\Github_FLASH_RAM_Inferring_Time_ML_Methods.png)
+![Github_FLASH_RAM_Inferring_Time_ML_Methods](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_FLASH_RAM_Inferring_Time_ML_Methods.png)
 
-![Github_TFLM_VS_TFLM-CMSIS-NN_FLASH](C:\Users\Yanfeng\Downloads\Github_pictures\Github_TFLM_VS_TFLM-CMSIS-NN_FLASH.png)
+![Github_TFLM_VS_TFLM-CMSIS-NN_FLASH](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_TFLM_VS_TFLM-CMSIS-NN_FLASH.png)
 
-![Github_TFLM_VS_TFLM-CMSIS-NN_RAM](C:\Users\Yanfeng\Downloads\Github_pictures\Github_TFLM_VS_TFLM-CMSIS-NN_RAM.png)
+![Github_TFLM_VS_TFLM-CMSIS-NN_RAM](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_TFLM_VS_TFLM-CMSIS-NN_RAM.png)
 
-![Github_TFLM_VS_TFLM-CMSIS-NN_Inferring_Time](C:\Users\Yanfeng\Downloads\Github_pictures\Github_TFLM_VS_TFLM-CMSIS-NN_Inferring_Time.png)
+![Github_TFLM_VS_TFLM-CMSIS-NN_Inferring_Time](https://github.com/bluepikaqiu/TinyML_Fault_Diagnosis/tree/main/Screenshots/Github_TFLM_VS_TFLM-CMSIS-NN_Inferring_Time.png)
 
 **Still under improvement**
 
