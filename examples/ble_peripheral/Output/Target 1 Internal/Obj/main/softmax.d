@@ -1,5 +1,5 @@
 Output/Target\ 1\ Internal/Obj/main/softmax.o: \
- Z:/tflite-micro/tensorflow/lite/micro/kernels/softmax.cc \
+ Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc \
  Z:/tflite-micro/tensorflow/lite/micro/kernels/softmax.h \
  Z:/tflite-micro/tensorflow/lite/c/builtin_op_data.h \
  Z:/tflite-micro/tensorflow/lite/core/c/builtin_op_data.h \
@@ -74,6 +74,9 @@ Output/Target\ 1\ Internal/Obj/main/softmax.o: \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/runtime_shape.h \
  Z:/tflite-micro/tensorflow/lite/micro/micro_common.h \
  Z:/tflite-micro/tensorflow/lite/c/common.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nnfunctions.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nn_math_types.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nn_types.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/cmath \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/math.h \

@@ -1,8 +1,8 @@
 ./objects/transformfunctions.o: \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\TransformFunctions.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_bitreversal.c \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\transform_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\transform_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\stdint.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__config \
@@ -16,24 +16,24 @@
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\float.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\limits.h \
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\limits.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_memory.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\none.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\utils.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\basic_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\complex_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_common_tables.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_memory.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\none.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\utils.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\basic_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\complex_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_common_tables.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_bitreversal2.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_cfft_f32.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_cfft_f64.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_cfft_q15.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_cfft_q31.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_cfft_init_f32.c \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_const_structs.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_common_tables.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\transform_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_const_structs.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_common_tables.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\transform_functions.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_cfft_init_f64.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_cfft_init_q15.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_cfft_init_q31.c \
@@ -50,8 +50,8 @@
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_rfft_fast_init_f64.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_mfcc_init_f32.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_mfcc_f32.c \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\statistics_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\matrix_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\statistics_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\matrix_functions.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_mfcc_init_q31.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_mfcc_q31.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\TransformFunctions\arm_mfcc_init_q15.c \

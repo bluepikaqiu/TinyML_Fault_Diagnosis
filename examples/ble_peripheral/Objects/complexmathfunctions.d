@@ -1,8 +1,8 @@
 ./objects/complexmathfunctions.o: \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\ComplexMathFunctions\ComplexMathFunctions.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\ComplexMathFunctions\arm_cmplx_conj_f32.c \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\complex_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\complex_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\stdint.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__config \
@@ -16,12 +16,12 @@
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\float.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\limits.h \
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\limits.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_memory.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\none.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\utils.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\basic_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_memory.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\none.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\utils.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\basic_math_functions.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\ComplexMathFunctions\arm_cmplx_conj_q15.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\ComplexMathFunctions\arm_cmplx_conj_q31.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\ComplexMathFunctions\arm_cmplx_dot_prod_f32.c \

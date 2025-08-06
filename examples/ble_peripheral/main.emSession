@@ -65,15 +65,16 @@
  </Watch4>
  <Files>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="8" useTextEdit="1" path="raw_rcc_data_x_pre_process.h" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="16" y="5" useTextEdit="1" path="raw_rcc_data_x_pre_process.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="31" useTextEdit="1" path="raw_rcc_data_x_pre_process.c" left="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="15" y="10" useTextEdit="1" path="clustering/fcm_method.cc" left="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="C:/nrf52840/my_demo/examples/ble_peripheral/clustering/fcm_method.cc" path="C:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Include/arm_math.h" left="0" top="181" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="45" y="219" useTextEdit="1" path="fault_diagnosis/main_functions.cc" left="0" top="177" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="39" y="73" useTextEdit="1" path="main.cc" left="0" selected="1" top="43" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="71" y="83" useTextEdit="1" path="Z:/tflite-micro/tensorflow/lite/micro/micro_allocator.cc" left="0" top="62" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="36" useTextEdit="1" path="fault_diagnosis/Gaussian_bayes.c" left="0" top="18" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="47" y="88" useTextEdit="1" path="fault_diagnosis/main_functions.cc" left="0" top="58" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="21" y="77" useTextEdit="1" path="main.cc" left="0" top="57" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="21" y="25" useTextEdit="1" path="fault_diagnosis/Gaussian_bayes.c" left="0" top="18" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="fault_diagnosis/Gaussian_bayes.h" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="28" y="469" useTextEdit="1" path="Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc" left="0" top="404" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="165" useTextEdit="1" path="Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc" left="0" top="118" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="73" y="33" useTextEdit="1" path="fault_diagnosis/model_keras_to_tflite.cc" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="120" y="19" useTextEdit="1" path="fault_diagnosis/svm_params.c" left="0" selected="1" top="0" codecName="Default"/>
  </Files>
- <EMStudioWindow activeProject="main" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Target 1 Internal" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/nrf52840/my_demo/examples/ble_peripheral/feature_extraction" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <EMStudioWindow activeProject="main" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Target 1 Internal" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

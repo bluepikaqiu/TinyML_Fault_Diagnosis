@@ -1,8 +1,8 @@
 ./objects/matrixfunctions.o: \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\MatrixFunctions.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_mat_add_f32.c \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\matrix_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\matrix_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\stdint.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__config \
@@ -16,10 +16,10 @@
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\float.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\limits.h \
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\limits.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_memory.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\none.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\utils.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_memory.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\none.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\utils.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_mat_add_q15.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_mat_add_q31.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_mat_cmplx_mult_f32.c \
@@ -30,7 +30,7 @@
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_mat_init_q15.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_mat_init_q31.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_mat_inverse_f32.c \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\matrix_utils.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\matrix_utils.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_mat_inverse_f64.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_mat_mult_f64.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_mat_mult_f32.c \
@@ -70,6 +70,6 @@
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_mat_qr_f32.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_mat_qr_f64.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_householder_f64.c \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\basic_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\basic_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\MatrixFunctions\arm_householder_f32.c

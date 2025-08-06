@@ -54,8 +54,8 @@
   ..\..\components\libraries\uart\app_uart.h \
   ..\..\components\boards\boards.h ..\..\modules\nrfx\hal\nrf_gpio.h \
   ..\..\components\boards\pca10056.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\math.h \
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\math.h \
@@ -70,35 +70,35 @@
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\float.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\limits.h \
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\limits.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_memory.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\none.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\utils.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\basic_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_memory.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\none.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\utils.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\interpolation_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\bayes_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\statistics_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\basic_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\matrix_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\complex_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\statistics_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\controller_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\support_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\distance_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\matrix_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\svm_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\svm_defines.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\transform_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\complex_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\filtering_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\support_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\quaternion_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\window_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_memory.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\none.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\utils.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\basic_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_memory.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\none.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\utils.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\interpolation_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\bayes_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\statistics_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\basic_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\matrix_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\complex_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\statistics_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\controller_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\support_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\distance_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\matrix_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\svm_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\svm_defines.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\transform_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\complex_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\filtering_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\support_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\quaternion_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\window_functions.h \
   ..\ble_peripheral\raw_rcc_data_x_pre_process.h fft\FFT_instance.h \
   ..\ble_peripheral\fault_diagnosis\main_functions.h \
   ..\..\TFLM_CMSIS_NN\tensorflow\lite\core\c\c_api_types.h \
@@ -121,6 +121,4 @@
   feature_extraction\integration.h \
   feature_extraction\hilbert_and_envelope_signal.h \
   ..\ble_peripheral\fault_diagnosis\confusion_matrix_and_metrics.h \
-  ..\ble_peripheral\fault_diagnosis\svm_params.h \
-  ..\ble_peripheral\fault_diagnosis\Gaussian_bayes.h \
   ..\..\modules\nrfx\hal\nrf_uart.h ..\..\modules\nrfx\hal\nrf_uarte.h

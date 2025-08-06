@@ -1,5 +1,5 @@
 Output/Target\ 1\ Internal/Obj/main/depthwise_conv.o: \
- Z:/tflite-micro/tensorflow/lite/micro/kernels/depthwise_conv.cc \
+ Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc \
  Z:/tflite-micro/tensorflow/lite/micro/kernels/depthwise_conv.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/cstdint \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__config \
@@ -75,13 +75,14 @@ Output/Target\ 1\ Internal/Obj/main/depthwise_conv.o: \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/runtime_shape.h \
  Z:/tflite-micro/tensorflow/lite/micro/kernels/conv.h \
  Z:/tflite-micro/tensorflow/lite/micro/micro_common.h \
- Z:/tflite-micro/tensorflow/lite/kernels/internal/portable_tensor_utils.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nnfunctions.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nn_math_types.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nn_types.h \
+ Z:/tflite-micro/tensorflow/lite/kernels/internal/common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/cmath \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/math.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/math.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/__SEGGER_RTL_FP.h \
- Z:/tflite-micro/tensorflow/lite/kernels/internal/reference/depthwiseconv_float.h \
- Z:/tflite-micro/tensorflow/lite/kernels/internal/common.h \
  third_party/gemmlowp/fixedpoint/fixedpoint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/cassert \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/assert.h \
@@ -89,7 +90,13 @@ Output/Target\ 1\ Internal/Obj/main/depthwise_conv.o: \
  Z:/tflite-micro/tensorflow/lite/core/macros.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/cppmath.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/optimized/neon_check.h \
+ Z:/tflite-micro/tensorflow/lite/kernels/internal/quantization_util.h \
+ Z:/tflite-micro/tensorflow/lite/kernels/internal/reference/depthwiseconv_float.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/reference/integer_ops/depthwise_conv.h \
+ Z:/tflite-micro/tensorflow/lite/kernels/internal/tensor_ctypes.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/vector \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__bit_reference \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__split_buffer \
  Z:/tflite-micro/tensorflow/lite/kernels/kernel_util.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/string \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/string_view \
@@ -104,11 +111,8 @@ Output/Target\ 1\ Internal/Obj/main/depthwise_conv.o: \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/ctype.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/wctype.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/wctype.h \
+ Z:/tflite-micro/tensorflow/lite/kernels/padding.h \
  Z:/tflite-micro/tensorflow/lite/micro/kernels/kernel_util.h \
- Z:/tflite-micro/tensorflow/lite/kernels/internal/tensor_ctypes.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/vector \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__bit_reference \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__split_buffer \
  Z:/tflite-micro/tensorflow/lite/micro/micro_context.h \
  Z:/tflite-micro/tensorflow/lite/micro/micro_graph.h \
  Z:/tflite-micro/tensorflow/lite/micro/compatibility.h \

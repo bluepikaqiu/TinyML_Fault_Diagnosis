@@ -1,8 +1,8 @@
 ./objects/commontablesf16.o: \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\CommonTables\CommonTablesF16.c \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\CommonTables\arm_common_tables_f16.c \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_types_f16.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_types_f16.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\stdint.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__config \
@@ -16,17 +16,17 @@
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\float.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\limits.h \
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\limits.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_common_tables_f16.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_types_f16.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_common_tables_f16.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_types_f16.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\CommonTables\arm_const_structs_f16.c \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_const_structs_f16.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_common_tables.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_math_memory.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\none.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\utils.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\basic_math_functions.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\arm_common_tables_f16.h \
-  C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp\transform_functions_f16.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_const_structs_f16.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_common_tables.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\fast_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_types.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_math_memory.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\none.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\utils.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\basic_math_functions.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\arm_common_tables_f16.h \
+  ..\..\CMSIS-DSP\1.14.4\Include\dsp\transform_functions_f16.h \
   C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Source\CommonTables\arm_mve_tables_f16.c

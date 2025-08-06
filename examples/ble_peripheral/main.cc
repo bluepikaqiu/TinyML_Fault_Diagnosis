@@ -72,7 +72,7 @@
 #include "hilbert_and_envelope_signal.h"
 #include "fault_diagnosis/confusion_matrix_and_metrics.h"
 #include "fault_diagnosis/svm_params.h"
-#include "fault_diagnosis/Gaussian_bayes.h"
+//#include "fault_diagnosis/Gaussian_bayes.h"
 
 #if defined (UART_PRESENT)
 #include "nrf_uart.h"
@@ -91,6 +91,7 @@ float32_t t_integral_output[FFT_LEN]; // The output of the time-domain integrati
 float32_t f_integral_output[FFT_LEN]; // The output of the frequency-domain integrating signal
 float32_t data_after_smooth[FFT_LEN]; // Data after smooth
 uint8_t pred_label[100];
+float features_data[100][81];
 float32_t data_temp[FFT_LEN]; // Temporary array(Store final time-domain integrating signal after filtering and removing trend)
 float32_t smooth_matrix_temp[FFT_LEN];
 float32_t speed = 0; // Recording speed
@@ -231,7 +232,7 @@ int main(int argc, char* argv[])
 	nrf_delay_ms(5000);
 	average_time_us = 0;
 	
-	int32_t ML_result;
+	//int32_t ML_result;
 	
 	for (int i = 0; i < 100; i++)
 	{
@@ -265,7 +266,6 @@ int main(int argc, char* argv[])
 		memcpy(feature_matrix + 7 + 20 + 7 + 20, env_TD_features, 20 * sizeof(float32_t)); // Copy envelope 20 time-domain features
 		memcpy(feature_matrix + 20 + 7 + 20 + 7 + 20, env_FD_features, 7 * sizeof(float32_t)); // Copy envelope 7 frequency-domain features
 		
-
 		/*
 		for(int k = 0; k < 81; k++)
 		{
@@ -277,27 +277,37 @@ int main(int argc, char* argv[])
 		*/
 		
 		//  TFLite Micro Testing
-		//TfLiteStatus temp_tflite_status = TFLM_Inference(&feature_matrix[0], &pred_label[0], i);
-		
-		//  SVM Testing
-		//  2-C SVM
-		//arm_svm_polynomial_predict_f32_ovr_2c((const float32_t*)feature_matrix, &ML_result);
-		// float32_t *scaler_feature_matrix = scaler_transform((const float32_t*)feature_matrix);
-		//  Muti-C SVM
-		ML_result = arm_svm_polynomial_predict_f32_ovr_10c((const float32_t*)feature_matrix);
-		pred_label[i] = ML_result;
+		//TfLiteStatus temp_tflite_status = TFLM_Inference(&data_after_smooth[0], &pred_label[0], i);
 		
 		// Gaussian DB Testing
 		//ML_result = arm_gaussian_db_predict_f32((const float32_t*)feature_matrix);
 		//pred_label[i] = ML_result;
 		
+		/*
 		end = DWT->CYCCNT;  // End of record time
 		cycles = end - start;  // Calculates the number of clock cycles consumed
 		time_us = (cycles * 1.0f) / (64000000 / 1e6); // uS
 		printf("time_us: %f\n", time_us);
 		nrf_delay_ms(25);
 		average_time_us = average_time_us + time_us;
+		*/
+		
+		// Store the features matrix (For SVM standscaler)
+		for (int g = 0; g < 81; g++)
+		{
+			features_data[i][g] = feature_matrix[g];
+		}
+		
 	}
+	
+	//  SVM Testing
+	arm_svm_polynomial_predict_f32_ovr_10c(features_data, &pred_label[0]);
+	
+	end = DWT->CYCCNT;  // End of record time
+	cycles = end - start;  // Calculates the number of clock cycles consumed
+	time_us = (cycles * 1.0f) / (64000000 / 1e6); // uS
+	average_time_us = time_us;
+	
 	
 	//accuracy = (float32_t)index / 100.0f;
 	//printf("-----TEST ACCURACY: %f-----\n", accuracy);
@@ -306,14 +316,12 @@ int main(int argc, char* argv[])
 	average_time_us = average_time_us / 100.0f;
 	printf("----Inference Time: %f----\n", average_time_us);
 	nrf_delay_ms(25);
-
 	
 	for(int i = 0; i < 100; i++)
 	{
 		printf("%u, ", pred_label[i]);
 		nrf_delay_ms(25);
 	}
-	
 	
 	ClassificationReport report;
 	uint8_t test_label_1024_test[100];
@@ -339,7 +347,7 @@ int main(int argc, char* argv[])
 	nrf_delay_ms(25);
 	printf("-----TEST ACCURACY: %f-----\n", report.accuracy);
 	nrf_delay_ms(25);
-
+	
 	LED2_Open();
 	
   // Frequency domain integration

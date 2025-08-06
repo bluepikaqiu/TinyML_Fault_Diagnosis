@@ -40,28 +40,28 @@ tflite::MicroInterpreter* interpreter = nullptr;
 TfLiteTensor* input_pointer = nullptr;
 TfLiteTensor* output_pointer = nullptr;
 int inference_count = 0;
-constexpr int kTensorArenaSize = 22 * 1024;
+constexpr int kTensorArenaSize = 70 * 1024;
 uint8_t tensor_arena[kTensorArenaSize];
 
 using HelloWorldOpResolver = tflite::MicroMutableOpResolver<10>;
 TfLiteStatus RegisterOps(HelloWorldOpResolver& op_resolver) {
   TF_LITE_ENSURE_STATUS(op_resolver.AddQuantize());
   TF_LITE_ENSURE_STATUS(op_resolver.AddDequantize());
-  //TF_LITE_ENSURE_STATUS(op_resolver.AddFullyConnected(tflite::Register_FULLY_CONNECTED_INT8()));
-	//TF_LITE_ENSURE_STATUS(op_resolver.AddDepthwiseConv2D(tflite::Register_DEPTHWISE_CONV_2D_INT8()));
-  //TF_LITE_ENSURE_STATUS(op_resolver.AddConv2D(tflite::Register_CONV_2D_INT8()));
+  TF_LITE_ENSURE_STATUS(op_resolver.AddFullyConnected(tflite::Register_FULLY_CONNECTED_INT8()));
+	TF_LITE_ENSURE_STATUS(op_resolver.AddDepthwiseConv2D(tflite::Register_DEPTHWISE_CONV_2D_INT8()));
+  TF_LITE_ENSURE_STATUS(op_resolver.AddConv2D(tflite::Register_CONV_2D_INT8()));
 	
-	TF_LITE_ENSURE_STATUS(op_resolver.AddFullyConnected());
-	TF_LITE_ENSURE_STATUS(op_resolver.AddDepthwiseConv2D());
-  TF_LITE_ENSURE_STATUS(op_resolver.AddConv2D());
+	//TF_LITE_ENSURE_STATUS(op_resolver.AddFullyConnected());
+	//TF_LITE_ENSURE_STATUS(op_resolver.AddDepthwiseConv2D());
+  //TF_LITE_ENSURE_STATUS(op_resolver.AddConv2D());
 	
-	//TF_LITE_ENSURE_STATUS(op_resolver.AddMul());
-	//TF_LITE_ENSURE_STATUS(op_resolver.AddAdd());
-  //TF_LITE_ENSURE_STATUS(op_resolver.AddMaxPool2D(tflite::Register_MAX_POOL_2D_INT8()));
-  //TF_LITE_ENSURE_STATUS(op_resolver.AddSoftmax(tflite::Register_SOFTMAX_INT8()));
+	//TF_LITE_ENSURE_STATUS(op_resolver.AddMul(tflite::Register_MUL_INT8()));
+	//TF_LITE_ENSURE_STATUS(op_resolver.AddAdd(tflite::Register_ADD_INT8()));
+  TF_LITE_ENSURE_STATUS(op_resolver.AddMaxPool2D(tflite::Register_MAX_POOL_2D_INT8()));
+  TF_LITE_ENSURE_STATUS(op_resolver.AddSoftmax(tflite::Register_SOFTMAX_INT8()));
 	
-	TF_LITE_ENSURE_STATUS(op_resolver.AddMaxPool2D());
-  TF_LITE_ENSURE_STATUS(op_resolver.AddSoftmax());
+	//TF_LITE_ENSURE_STATUS(op_resolver.AddMaxPool2D());
+  //TF_LITE_ENSURE_STATUS(op_resolver.AddSoftmax());
 	
   TF_LITE_ENSURE_STATUS(op_resolver.AddReshape());
   return kTfLiteOk;
@@ -78,7 +78,7 @@ TfLiteStatus TFLM_Inference(const float32_t *feature_matrix, uint8_t *pred_label
   
   // Map the model into a usable data structure. This doesn't involve any
   // copying or parsing, it's a very lightweight operation.
-  model = ::tflite::GetModel(CWRU_Bearing_2_best_model_with_fe_tflite);
+  model = ::tflite::GetModel(AutoKeras_CNN_CWRU_4c_0_without_fe_tflite);
   TFLITE_CHECK_EQ(model->version(), TFLITE_SCHEMA_VERSION);
 	
 	memset(tensor_arena, 0, sizeof(tensor_arena));
@@ -103,11 +103,11 @@ TfLiteStatus TFLM_Inference(const float32_t *feature_matrix, uint8_t *pred_label
   input_pointer = interpreter->input(0);
   output_pointer = interpreter->output(0);
 	
-  // Set the input tensor shape to (1, 9, 9, 1)
+  // Set the input tensor shape to (1, 32, 32, 1)
   input_pointer->dims->size = 4; // Set number of dimensions
   input_pointer->dims->data[0] = 1; // Batch size
-  input_pointer->dims->data[1] = 9; // Height
-  input_pointer->dims->data[2] = 9; // Width
+  input_pointer->dims->data[1] = 32; // Height
+  input_pointer->dims->data[2] = 32; // Width
   input_pointer->dims->data[3] = 1; // Channels
 
   // Calculate an x value to feed into the model. We compare the current
@@ -115,12 +115,12 @@ TfLiteStatus TFLM_Inference(const float32_t *feature_matrix, uint8_t *pred_label
   // our position within the range of possible x values the model was
   // trained on, and use this to calculate a value.
   //static_cast<float> transform the sympol to float
-	float32_t feature_matrix_3d[1][9][9][1];
-	for (int row = 0; row < 9; ++row) 
+	float32_t feature_matrix_3d[1][32][32][1];
+	for (int row = 0; row < 32; ++row) 
 	{
-		for (int col = 0; col < 9; ++col) 
+		for (int col = 0; col < 32; ++col) 
 		{
-			int index = row * 9 + col;
+			int index = row * 32 + col;
 			feature_matrix_3d[0][row][col][0] = feature_matrix[index];
 		}
 	}
@@ -146,7 +146,7 @@ TfLiteStatus TFLM_Inference(const float32_t *feature_matrix, uint8_t *pred_label
 	// float32_t *output_data = output_pointer->data.f;
 	float32_t max_probability;
 	uint32_t max_index;
-	arm_absmax_f32(&y[0], 10, &max_probability, &max_index); // Return predicted label
+	arm_absmax_f32(&y[0], 4, &max_probability, &max_index); // Return predicted label
 	
 	/*
 	for (int i = 0; i < 10; ++i) {

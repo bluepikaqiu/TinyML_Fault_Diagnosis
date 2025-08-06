@@ -1,7 +1,7 @@
 ./objects/mul_common.o: \
-  Z:\tflite-micro\tensorflow\lite\micro\kernels\mul_common.cc \
-  Z:\tflite-micro\tensorflow\lite\c\common.h \
-  Z:\tflite-micro\tensorflow\lite\core\c\common.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\kernels\mul_common.cc \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\c\common.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\core\c\common.h \
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\stdbool.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__config \
@@ -11,7 +11,7 @@
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__nullptr \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\stdint.h \
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  Z:\tflite-micro\tensorflow\lite\core\c\c_api_types.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\core\c\c_api_types.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cstdint \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cstddef \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\version \
@@ -26,7 +26,7 @@
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\iosfwd \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\wchar.h \
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\wchar.h \
-  Z:\tflite-micro\tensorflow\lite\kernels\internal\quantization_util.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\kernels\internal\quantization_util.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cmath \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\math.h \
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\math.h \
@@ -34,13 +34,13 @@
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\limits \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__undef_macros \
-  Z:\tflite-micro\tensorflow\lite\kernels\internal\compatibility.h \
-  Z:\tflite-micro\tensorflow\lite\kernels\op_macros.h \
-  Z:\tflite-micro\tensorflow\lite\micro\micro_log.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\kernels\internal\compatibility.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\kernels\op_macros.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\micro_log.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cstdarg \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cstdlib \
-  Z:\tflite-micro\tensorflow\lite\kernels\internal\cppmath.h \
-  Z:\tflite-micro\tensorflow\lite\kernels\internal\types.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\kernels\internal\cppmath.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\kernels\internal\types.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\algorithm \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\memory \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__availability \
@@ -58,17 +58,17 @@
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\functional \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\bit \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__bits \
-  Z:\tflite-micro\tensorflow\lite\kernels\internal\runtime_shape.h \
-  Z:\tflite-micro\tensorflow\lite\kernels\internal\reference\integer_ops\mul.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\kernels\internal\runtime_shape.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\kernels\internal\reference\integer_ops\mul.h \
   third_party\gemmlowp\fixedpoint\fixedpoint.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\cassert \
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\assert.h \
   third_party\gemmlowp\fixedpoint\..\internal\detect_platform.h \
-  Z:\tflite-micro\tensorflow\lite\micro\tools\make\downloads\ruy\ruy\profiler\instrumentation.h \
-  Z:\tflite-micro\tensorflow\lite\kernels\internal\common.h \
-  Z:\tflite-micro\tensorflow\lite\core\macros.h \
-  Z:\tflite-micro\tensorflow\lite\kernels\internal\optimized\neon_check.h \
-  Z:\tflite-micro\tensorflow\lite\kernels\internal\reference\mul.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\tools\make\downloads\ruy\ruy\profiler\instrumentation.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\kernels\internal\common.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\core\macros.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\kernels\internal\optimized\neon_check.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\kernels\internal\reference\mul.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\complex \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\sstream \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\ostream \
@@ -114,53 +114,54 @@
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\bitset \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__bit_reference \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\istream \
-  Z:\tflite-micro\tensorflow\lite\kernels\internal\reference\process_broadcast_shapes.h \
-  Z:\tflite-micro\tensorflow\lite\kernels\internal\tensor_ctypes.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\kernels\internal\reference\process_broadcast_shapes.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\kernels\internal\tensor_ctypes.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\vector \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__split_buffer \
-  Z:\tflite-micro\tensorflow\lite\kernels\kernel_util.h \
-  Z:\tflite-micro\tensorflow\lite\core\c\builtin_op_data.h \
-  Z:\tflite-micro\tensorflow\lite\micro\kernels\kernel_util.h \
-  Z:\tflite-micro\tensorflow\lite\c\builtin_op_data.h \
-  Z:\tflite-micro\tensorflow\lite\micro\micro_context.h \
-  Z:\tflite-micro\tensorflow\lite\micro\micro_graph.h \
-  Z:\tflite-micro\tensorflow\lite\micro\compatibility.h \
-  Z:\tflite-micro\tensorflow\lite\micro\micro_common.h \
-  Z:\tflite-micro\tensorflow\lite\micro\micro_resource_variable.h \
-  Z:\tflite-micro\tensorflow\lite\micro\micro_allocator.h \
-  Z:\tflite-micro\tensorflow\lite\micro\arena_allocator\single_arena_buffer_allocator.h \
-  Z:\tflite-micro\tensorflow\lite\micro\arena_allocator\ibuffer_allocator.h \
-  Z:\tflite-micro\tensorflow\lite\c\c_api_types.h \
-  Z:\tflite-micro\tensorflow\lite\micro\flatbuffer_utils.h \
-  Z:\tflite-micro\flatbuffers\flatbuffers.h \
-  Z:\tflite-micro\flatbuffers\array.h Z:\tflite-micro\flatbuffers\base.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\kernels\kernel_util.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\core\c\builtin_op_data.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\kernels\kernel_util.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\c\builtin_op_data.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\micro_context.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\micro_graph.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\compatibility.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\micro_common.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\micro_resource_variable.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\micro_allocator.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\arena_allocator\single_arena_buffer_allocator.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\arena_allocator\ibuffer_allocator.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\c\c_api_types.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\flatbuffer_utils.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\flatbuffers.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\array.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\base.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\set \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__tree \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\__node_handle \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\optional \
-  Z:\tflite-micro\flatbuffers\stl_emulation.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\stl_emulation.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\array \
-  Z:\tflite-micro\flatbuffers\vector.h \
-  Z:\tflite-micro\flatbuffers\buffer.h \
-  Z:\tflite-micro\flatbuffers\buffer_ref.h \
-  Z:\tflite-micro\flatbuffers\verifier.h \
-  Z:\tflite-micro\flatbuffers\detached_buffer.h \
-  Z:\tflite-micro\flatbuffers\allocator.h \
-  Z:\tflite-micro\flatbuffers\default_allocator.h \
-  Z:\tflite-micro\flatbuffers\flatbuffer_builder.h \
-  Z:\tflite-micro\flatbuffers\string.h \
-  Z:\tflite-micro\flatbuffers\struct.h \
-  Z:\tflite-micro\flatbuffers\table.h \
-  Z:\tflite-micro\flatbuffers\vector_downward.h \
-  Z:\tflite-micro\flatbuffers\flexbuffers.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\vector.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\buffer.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\buffer_ref.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\verifier.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\detached_buffer.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\allocator.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\default_allocator.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\flatbuffer_builder.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\string.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\struct.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\table.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\vector_downward.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\flexbuffers.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\map \
-  Z:\tflite-micro\flatbuffers\util.h \
+  ..\..\TFLM_CMSIS_NN\flatbuffers\util.h \
   C:\Keil_V5\ARM\ARMCLANG\include\libcxx\float.h \
   C:\Keil_V5\ARM\ARMCLANG\Bin\..\include\float.h \
-  Z:\tflite-micro\tensorflow\lite\schema\schema_generated.h \
-  Z:\tflite-micro\tensorflow\lite\micro\memory_planner\micro_memory_planner.h \
-  Z:\tflite-micro\tensorflow\lite\micro\tflite_bridge\flatbuffer_conversions_bridge.h \
-  Z:\tflite-micro\tensorflow\lite\core\api\flatbuffer_conversions.h \
-  Z:\tflite-micro\tensorflow\lite\core\api\error_reporter.h \
-  Z:\tflite-micro\tensorflow\lite\micro\kernels\mul.h \
-  Z:\tflite-micro\tensorflow\lite\micro\memory_helpers.h
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\schema\schema_generated.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\memory_planner\micro_memory_planner.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\tflite_bridge\flatbuffer_conversions_bridge.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\core\api\flatbuffer_conversions.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\core\api\error_reporter.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\kernels\mul.h \
+  ..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\memory_helpers.h

@@ -153,6 +153,10 @@
         <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c" />
         <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s4.c" />
         <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/BasicMathFunctions/arm_elementwise_add_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/BasicMathFunctions/arm_elementwise_add_s8.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/BasicMathFunctions/arm_elementwise_mul_s16.c" />
+        <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/BasicMathFunctions/arm_elementwise_mul_s8.c" />
         <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/FullyConnectedFunctions/arm_fully_connected_get_buffer_sizes_s16.c" />
         <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/FullyConnectedFunctions/arm_fully_connected_get_buffer_sizes_s8.c" />
         <file file_name="Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Source/FullyConnectedFunctions/arm_fully_connected_s16.c" />
@@ -229,11 +233,15 @@
       <file file_name="fault_diagnosis/main_functions.cc">
         <configuration
           Name="Target 1 Internal"
-          build_exclude_from_build="No" />
+          build_exclude_from_build="Yes" />
       </file>
       <file file_name="fault_diagnosis/main_functions.h" />
       <file file_name="fault_diagnosis/micro_kernel_util.cc" />
-      <file file_name="fault_diagnosis/model_keras_to_tflite.cc" />
+      <file file_name="fault_diagnosis/model_keras_to_tflite.cc">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="Yes" />
+      </file>
       <file file_name="fault_diagnosis/model_keras_to_tflite.h" />
       <file file_name="fault_diagnosis/svm_params.c">
         <configuration
@@ -247,7 +255,11 @@
       <file file_name="feature_extraction/features_extraction.h" />
       <file file_name="feature_extraction/filtering_preprocessing.c" />
       <file file_name="feature_extraction/filtering_preprocessing.h" />
-      <file file_name="feature_extraction/frequency_integral.c" />
+      <file file_name="feature_extraction/frequency_integral.c">
+        <configuration
+          Name="Target 1 Internal"
+          build_exclude_from_build="No" />
+      </file>
       <file file_name="feature_extraction/frequency_integral.h" />
       <file file_name="feature_extraction/hilbert_and_envelope_signal.c" />
       <file file_name="feature_extraction/hilbert_and_envelope_signal.h" />
@@ -334,43 +346,46 @@
       <file file_name="Z:/tflite-micro/bazel-tflite-micro/tensorflow/lite/kernels/internal/tensor_ctypes.cc" />
     </folder>
     <folder Name="TFLM Kernels">
-      <configuration Name="Target 1 Internal" build_exclude_from_build="No" />
+      <configuration
+        Name="Target 1 Internal"
+        analyze_after_compile="Yes"
+        build_exclude_from_build="Yes" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/add.cc">
         <configuration
           Name="Target 1 Internal"
-          build_exclude_from_build="Yes" />
+          build_exclude_from_build="No" />
       </file>
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/add_common.cc">
         <configuration
           Name="Target 1 Internal"
-          build_exclude_from_build="Yes" />
+          build_exclude_from_build="No" />
       </file>
-      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/conv.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/conv_common.cc" />
-      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/depthwise_conv.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/depthwise_conv_common.cc" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/dequantize.cc" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/dequantize_common.cc" />
-      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/fully_connected.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/fully_connected_common.cc" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc">
         <configuration
           Name="Target 1 Internal"
-          build_exclude_from_build="Yes" />
+          build_exclude_from_build="No" />
       </file>
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/mul_common.cc">
         <configuration
           Name="Target 1 Internal"
-          build_exclude_from_build="Yes" />
+          build_exclude_from_build="No" />
       </file>
-      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/pooling.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/pooling_common.cc" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/quantize.cc" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/quantize_common.cc" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/reshape.cc" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/reshape_common.cc" />
-      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/softmax.cc" />
+      <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc" />
       <file file_name="Z:/tflite-micro/tensorflow/lite/micro/kernels/softmax_common.cc" />
     </folder>
   </project>

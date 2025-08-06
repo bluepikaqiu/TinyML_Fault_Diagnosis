@@ -1,5 +1,5 @@
 Output/Target\ 1\ Internal/Obj/main/pooling.o: \
- Z:/tflite-micro/tensorflow/lite/micro/kernels/pooling.cc \
+ Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/reference/pooling.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/algorithm \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__config \
@@ -79,12 +79,20 @@ Output/Target\ 1\ Internal/Obj/main/pooling.o: \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/optimized/neon_check.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/types.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/quantization_util.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nnfunctions.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nn_math_types.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nn_types.h \
  Z:/tflite-micro/tensorflow/lite/c/builtin_op_data.h \
  Z:/tflite-micro/tensorflow/lite/core/c/builtin_op_data.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/stdbool.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/stdbool.h \
  Z:/tflite-micro/tensorflow/lite/core/c/common.h \
  Z:/tflite-micro/tensorflow/lite/core/c/c_api_types.h \
+ Z:/tflite-micro/tensorflow/lite/c/common.h \
+ Z:/tflite-micro/tensorflow/lite/kernels/internal/tensor_ctypes.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/vector \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__bit_reference \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__split_buffer \
  Z:/tflite-micro/tensorflow/lite/kernels/kernel_util.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/string \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/string_view \
@@ -100,11 +108,6 @@ Output/Target\ 1\ Internal/Obj/main/pooling.o: \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/wctype.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/wctype.h \
  Z:/tflite-micro/tensorflow/lite/micro/kernels/kernel_util.h \
- Z:/tflite-micro/tensorflow/lite/c/common.h \
- Z:/tflite-micro/tensorflow/lite/kernels/internal/tensor_ctypes.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/vector \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__bit_reference \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__split_buffer \
  Z:/tflite-micro/tensorflow/lite/micro/micro_context.h \
  Z:/tflite-micro/tensorflow/lite/micro/micro_graph.h \
  Z:/tflite-micro/tensorflow/lite/micro/compatibility.h \

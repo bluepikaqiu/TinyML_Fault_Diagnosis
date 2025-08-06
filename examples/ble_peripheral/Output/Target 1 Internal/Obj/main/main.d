@@ -132,5 +132,4 @@ Output/Target\ 1\ Internal/Obj/main/main.o: \
  C:/nrf52840/my_demo/examples/ble_peripheral/feature_extraction/hilbert_and_envelope_signal.h \
  C:\nrf52840\my_demo\examples\ble_peripheral\fault_diagnosis/confusion_matrix_and_metrics.h \
  C:\nrf52840\my_demo\examples\ble_peripheral\fault_diagnosis/svm_params.h \
- C:\nrf52840\my_demo\examples\ble_peripheral\fault_diagnosis/Gaussian_bayes.h \
  ../../modules/nrfx/hal/nrf_uart.h ../../modules/nrfx/hal/nrf_uarte.h

@@ -1,5 +1,5 @@
 Output/Target\ 1\ Internal/Obj/main/add.o: \
- Z:/tflite-micro/tensorflow/lite/micro/kernels/add.cc \
+ Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/add.cc \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/reference/add.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/algorithm \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__config \
@@ -78,13 +78,15 @@ Output/Target\ 1\ Internal/Obj/main/add.o: \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/cppmath.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/optimized/neon_check.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/types.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nnfunctions.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nn_math_types.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nn_types.h \
  Z:/tflite-micro/tensorflow/lite/c/builtin_op_data.h \
  Z:/tflite-micro/tensorflow/lite/core/c/builtin_op_data.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/stdbool.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/stdbool.h \
  Z:/tflite-micro/tensorflow/lite/core/c/common.h \
  Z:/tflite-micro/tensorflow/lite/core/c/c_api_types.h \
- Z:/tflite-micro/tensorflow/lite/c/common.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/quantization_util.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/reference/integer_ops/add.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/reference/process_broadcast_shapes.h \
@@ -106,12 +108,12 @@ Output/Target\ 1\ Internal/Obj/main/add.o: \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/ctype.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/wctype.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/wctype.h \
- Z:/tflite-micro/tensorflow/lite/micro/kernels/add.h \
- Z:/tflite-micro/tensorflow/lite/micro/micro_common.h \
  Z:/tflite-micro/tensorflow/lite/micro/kernels/kernel_util.h \
+ Z:/tflite-micro/tensorflow/lite/c/common.h \
  Z:/tflite-micro/tensorflow/lite/micro/micro_context.h \
  Z:/tflite-micro/tensorflow/lite/micro/micro_graph.h \
  Z:/tflite-micro/tensorflow/lite/micro/compatibility.h \
+ Z:/tflite-micro/tensorflow/lite/micro/micro_common.h \
  Z:/tflite-micro/tensorflow/lite/micro/micro_resource_variable.h \
  Z:/tflite-micro/tensorflow/lite/micro/micro_allocator.h \
  Z:/tflite-micro/tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h \

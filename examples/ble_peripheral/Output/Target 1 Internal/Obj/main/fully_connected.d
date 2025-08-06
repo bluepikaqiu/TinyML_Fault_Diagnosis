@@ -1,5 +1,5 @@
 Output/Target\ 1\ Internal/Obj/main/fully_connected.o: \
- Z:/tflite-micro/tensorflow/lite/micro/kernels/fully_connected.cc \
+ Z:/tflite-micro/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc \
  Z:/tflite-micro/tensorflow/lite/micro/kernels/fully_connected.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/cstdint \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__config \
@@ -74,14 +74,14 @@ Output/Target\ 1\ Internal/Obj/main/fully_connected.o: \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/runtime_shape.h \
  Z:/tflite-micro/tensorflow/lite/micro/micro_common.h \
  Z:/tflite-micro/tensorflow/lite/c/common.h \
- Z:/tflite-micro/tensorflow/lite/kernels/internal/portable_tensor_utils.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nnfunctions.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nn_math_types.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/cmsis_nn/Include/arm_nn_types.h \
+ Z:/tflite-micro/tensorflow/lite/kernels/internal/common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/cmath \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/math.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/math.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/__SEGGER_RTL_FP.h \
- Z:/tflite-micro/tensorflow/lite/kernels/internal/reference/fully_connected.h \
- Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/ruy/ruy/profiler/instrumentation.h \
- Z:/tflite-micro/tensorflow/lite/kernels/internal/common.h \
  third_party/gemmlowp/fixedpoint/fixedpoint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/cassert \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/assert.h \
@@ -89,24 +89,16 @@ Output/Target\ 1\ Internal/Obj/main/fully_connected.o: \
  Z:/tflite-micro/tensorflow/lite/core/macros.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/cppmath.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/optimized/neon_check.h \
+ Z:/tflite-micro/tensorflow/lite/kernels/internal/portable_tensor_utils.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/quantization_util.h \
+ Z:/tflite-micro/tensorflow/lite/kernels/internal/reference/fully_connected.h \
+ Z:/tflite-micro/tensorflow/lite/micro/tools/make/downloads/ruy/ruy/profiler/instrumentation.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/reference/integer_ops/fully_connected.h \
- Z:/tflite-micro/tensorflow/lite/micro/kernels/kernel_util.h \
  Z:/tflite-micro/tensorflow/lite/kernels/internal/tensor_ctypes.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/vector \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__bit_reference \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__split_buffer \
- Z:/tflite-micro/tensorflow/lite/micro/micro_context.h \
- Z:/tflite-micro/tensorflow/lite/micro/micro_graph.h \
- Z:/tflite-micro/tensorflow/lite/micro/compatibility.h \
- Z:/tflite-micro/tensorflow/lite/micro/micro_resource_variable.h \
- Z:/tflite-micro/tensorflow/lite/micro/micro_allocator.h \
- Z:/tflite-micro/tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h \
- Z:/tflite-micro/tensorflow/lite/micro/arena_allocator/ibuffer_allocator.h \
- Z:/tflite-micro/tensorflow/lite/c/c_api_types.h \
- Z:/tflite-micro/tensorflow/lite/micro/flatbuffer_utils.h \
- Z:/tflite-micro/flatbuffers/flatbuffers.h \
- Z:/tflite-micro/flatbuffers/array.h Z:/tflite-micro/flatbuffers/base.h \
+ Z:/tflite-micro/tensorflow/lite/kernels/kernel_util.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/string \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/string_view \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__string \
@@ -120,6 +112,18 @@ Output/Target\ 1\ Internal/Obj/main/fully_connected.o: \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/ctype.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/wctype.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/wctype.h \
+ Z:/tflite-micro/tensorflow/lite/micro/kernels/kernel_util.h \
+ Z:/tflite-micro/tensorflow/lite/micro/micro_context.h \
+ Z:/tflite-micro/tensorflow/lite/micro/micro_graph.h \
+ Z:/tflite-micro/tensorflow/lite/micro/compatibility.h \
+ Z:/tflite-micro/tensorflow/lite/micro/micro_resource_variable.h \
+ Z:/tflite-micro/tensorflow/lite/micro/micro_allocator.h \
+ Z:/tflite-micro/tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h \
+ Z:/tflite-micro/tensorflow/lite/micro/arena_allocator/ibuffer_allocator.h \
+ Z:/tflite-micro/tensorflow/lite/c/c_api_types.h \
+ Z:/tflite-micro/tensorflow/lite/micro/flatbuffer_utils.h \
+ Z:/tflite-micro/flatbuffers/flatbuffers.h \
+ Z:/tflite-micro/flatbuffers/array.h Z:/tflite-micro/flatbuffers/base.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/set \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__tree \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/source/libcxx/include/__node_handle \
@@ -146,4 +150,5 @@ Output/Target\ 1\ Internal/Obj/main/fully_connected.o: \
  Z:/tflite-micro/tensorflow/lite/micro/memory_planner/micro_memory_planner.h \
  Z:/tflite-micro/tensorflow/lite/micro/tflite_bridge/flatbuffer_conversions_bridge.h \
  Z:/tflite-micro/tensorflow/lite/core/api/flatbuffer_conversions.h \
- Z:/tflite-micro/tensorflow/lite/core/api/error_reporter.h
+ Z:/tflite-micro/tensorflow/lite/core/api/error_reporter.h \
+ Z:/tflite-micro/tensorflow/lite/micro/micro_arena_constants.h

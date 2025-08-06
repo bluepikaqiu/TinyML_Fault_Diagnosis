@@ -1,8 +1,8 @@
 #include <cstdint>
 
 //CWRU
-extern const unsigned int CWRU_Bearing_2_best_model_with_fe_tflite_len;
-extern const unsigned char CWRU_Bearing_2_best_model_with_fe_tflite[];
+extern const unsigned int AutoKeras_CNN_CWRU_4c_0_without_fe_tflite_len;
+extern const unsigned char AutoKeras_CNN_CWRU_4c_0_without_fe_tflite[];
 
 
 //SKF Gear

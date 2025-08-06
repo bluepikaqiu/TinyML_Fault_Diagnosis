@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>BOARD_PCA10056,CONFIG_GPIO_AS_PINRESET ARM_MATH_DSP ARM_MATH_DSP CMSIS_NN</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\drive;..\..\components\drivers_nrf\nrf_soc_nosd;..\..\components\boards;..\..\components\libraries\balloc;..\..\components\libraries\util;..\..\components\libraries\atomic;..\..\components\libraries\balloc;..\..\components\libraries\bsp;..\..\components\libraries\delay;..\..\components\libraries\experimental_section_vars;..\..\components\libraries\log\src;..\..\components\libraries\memobj;..\..\components\libraries\ringbuf;..\..\components\libraries\strerror;..\..\components\libraries\util;..\..\integration\nrfx;..\..\modules\nrfx;..\..\modules\nrfx\hal;..\..\config;..\..\modules\nrfx\drivers\include;..\..\modules\nrfx\drivers\src\prs;..\..\modules\nrfx\drivers;..\..\modules\nrfx\templates;..\..\modules\nrfx\soc;..\..\modules\nrfx\mdk;..\..\components\libraries\log;..\..\integration\nrfx\legacy;..\..\components\boards;..\..\config\nrf52840\config;..\..\modules\nrfx\drivers\src;..\..\components\libraries\fifo;..\..\components\libraries\uart;.\fft;C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include;C:\Keil_V5\ARM\PACK\ARM\CMSIS-DSP\1.14.4\Include\dsp;..\..\components\libraries\log\;..\..\TFLM_CMSIS_NN;..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\tools\make\downloads\ruy;..\ble_peripheral;.\third_party\gemmlowp;.\third_party\flatbuffers\include;C:\Keil_V5\ARM\ARMCLANG\include\libcxx;.\clustering;..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\tools\make\downloads\cmsis_nn\Include\;..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\tools\make\downloads\cmsis_nn\;.\feature_extraction</IncludePath>
+              <IncludePath>..\..\drive;..\..\components\drivers_nrf\nrf_soc_nosd;..\..\components\boards;..\..\components\libraries\balloc;..\..\components\libraries\util;..\..\components\libraries\atomic;..\..\components\libraries\balloc;..\..\components\libraries\bsp;..\..\components\libraries\delay;..\..\components\libraries\experimental_section_vars;..\..\components\libraries\log\src;..\..\components\libraries\memobj;..\..\components\libraries\ringbuf;..\..\components\libraries\strerror;..\..\components\libraries\util;..\..\integration\nrfx;..\..\modules\nrfx;..\..\modules\nrfx\hal;..\..\config;..\..\modules\nrfx\drivers\include;..\..\modules\nrfx\drivers\src\prs;..\..\modules\nrfx\drivers;..\..\modules\nrfx\templates;..\..\modules\nrfx\soc;..\..\modules\nrfx\mdk;..\..\components\libraries\log;..\..\integration\nrfx\legacy;..\..\components\boards;..\..\config\nrf52840\config;..\..\modules\nrfx\drivers\src;..\..\components\libraries\fifo;..\..\components\libraries\uart;.\fft;..\..\CMSIS-DSP\1.14.4\Include;..\..\CMSIS-DSP\1.14.4\Include\dsp;..\..\components\libraries\log\;..\..\TFLM_CMSIS_NN;..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\tools\make\downloads\ruy;..\ble_peripheral;.\third_party\gemmlowp;.\third_party\flatbuffers\include;C:\Keil_V5\ARM\ARMCLANG\include\libcxx;.\clustering;..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\tools\make\downloads\cmsis_nn\Include\;..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\tools\make\downloads\cmsis_nn\;.\feature_extraction</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1073,113 +1073,11 @@
               <FileName>add.cc</FileName>
               <FileType>8</FileType>
               <FilePath>Z:\tflite-micro\tensorflow\lite\micro\kernels\cmsis_nn\add.cc</FilePath>
-              <FileOption>
-                <CommonProperty>
-                  <UseCPPCompiler>2</UseCPPCompiler>
-                  <RVCTCodeConst>0</RVCTCodeConst>
-                  <RVCTZI>0</RVCTZI>
-                  <RVCTOtherData>0</RVCTOtherData>
-                  <ModuleSelection>0</ModuleSelection>
-                  <IncludeInBuild>0</IncludeInBuild>
-                  <AlwaysBuild>2</AlwaysBuild>
-                  <GenerateAssemblyFile>2</GenerateAssemblyFile>
-                  <AssembleAssemblyFile>2</AssembleAssemblyFile>
-                  <PublicsOnly>2</PublicsOnly>
-                  <StopOnExitCode>11</StopOnExitCode>
-                  <CustomArgument></CustomArgument>
-                  <IncludeLibraryModules></IncludeLibraryModules>
-                  <ComprImg>1</ComprImg>
-                </CommonProperty>
-                <FileArmAds>
-                  <Cads>
-                    <interw>2</interw>
-                    <Optim>0</Optim>
-                    <oTime>2</oTime>
-                    <SplitLS>2</SplitLS>
-                    <OneElfS>2</OneElfS>
-                    <Strict>2</Strict>
-                    <EnumInt>2</EnumInt>
-                    <PlainCh>2</PlainCh>
-                    <Ropi>2</Ropi>
-                    <Rwpi>2</Rwpi>
-                    <wLevel>0</wLevel>
-                    <uThumb>2</uThumb>
-                    <uSurpInc>2</uSurpInc>
-                    <uC99>2</uC99>
-                    <uGnu>2</uGnu>
-                    <useXO>2</useXO>
-                    <v6Lang>0</v6Lang>
-                    <v6LangP>0</v6LangP>
-                    <vShortEn>2</vShortEn>
-                    <vShortWch>2</vShortWch>
-                    <v6Lto>2</v6Lto>
-                    <v6WtE>2</v6WtE>
-                    <v6Rtti>2</v6Rtti>
-                    <VariousControls>
-                      <MiscControls></MiscControls>
-                      <Define></Define>
-                      <Undefine></Undefine>
-                      <IncludePath></IncludePath>
-                    </VariousControls>
-                  </Cads>
-                </FileArmAds>
-              </FileOption>
             </File>
             <File>
               <FileName>mul.cc</FileName>
               <FileType>8</FileType>
               <FilePath>Z:\tflite-micro\tensorflow\lite\micro\kernels\cmsis_nn\mul.cc</FilePath>
-              <FileOption>
-                <CommonProperty>
-                  <UseCPPCompiler>2</UseCPPCompiler>
-                  <RVCTCodeConst>0</RVCTCodeConst>
-                  <RVCTZI>0</RVCTZI>
-                  <RVCTOtherData>0</RVCTOtherData>
-                  <ModuleSelection>0</ModuleSelection>
-                  <IncludeInBuild>0</IncludeInBuild>
-                  <AlwaysBuild>2</AlwaysBuild>
-                  <GenerateAssemblyFile>2</GenerateAssemblyFile>
-                  <AssembleAssemblyFile>2</AssembleAssemblyFile>
-                  <PublicsOnly>2</PublicsOnly>
-                  <StopOnExitCode>11</StopOnExitCode>
-                  <CustomArgument></CustomArgument>
-                  <IncludeLibraryModules></IncludeLibraryModules>
-                  <ComprImg>1</ComprImg>
-                </CommonProperty>
-                <FileArmAds>
-                  <Cads>
-                    <interw>2</interw>
-                    <Optim>0</Optim>
-                    <oTime>2</oTime>
-                    <SplitLS>2</SplitLS>
-                    <OneElfS>2</OneElfS>
-                    <Strict>2</Strict>
-                    <EnumInt>2</EnumInt>
-                    <PlainCh>2</PlainCh>
-                    <Ropi>2</Ropi>
-                    <Rwpi>2</Rwpi>
-                    <wLevel>0</wLevel>
-                    <uThumb>2</uThumb>
-                    <uSurpInc>2</uSurpInc>
-                    <uC99>2</uC99>
-                    <uGnu>2</uGnu>
-                    <useXO>2</useXO>
-                    <v6Lang>0</v6Lang>
-                    <v6LangP>0</v6LangP>
-                    <vShortEn>2</vShortEn>
-                    <vShortWch>2</vShortWch>
-                    <v6Lto>2</v6Lto>
-                    <v6WtE>2</v6WtE>
-                    <v6Rtti>2</v6Rtti>
-                    <VariousControls>
-                      <MiscControls></MiscControls>
-                      <Define></Define>
-                      <Undefine></Undefine>
-                      <IncludePath></IncludePath>
-                    </VariousControls>
-                  </Cads>
-                </FileArmAds>
-              </FileOption>
             </File>
             <File>
               <FileName>conv.cc</FileName>
@@ -1230,6 +1128,16 @@
               <FileName>softmax_common.cc</FileName>
               <FileType>8</FileType>
               <FilePath>Z:\tflite-micro\tensorflow\lite\micro\kernels\softmax_common.cc</FilePath>
+            </File>
+            <File>
+              <FileName>add_common.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\kernels\add_common.cc</FilePath>
+            </File>
+            <File>
+              <FileName>mul_common.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\kernels\mul_common.cc</FilePath>
             </File>
           </Files>
         </Group>
@@ -1485,6 +1393,26 @@
               <FileName>arm_vector_sum_s8.c</FileName>
               <FileType>1</FileType>
               <FilePath>Z:\tflite-micro\tensorflow\lite\micro\tools\make\downloads\cmsis_nn\Source\FullyConnectedFunctions\arm_vector_sum_s8.c</FilePath>
+            </File>
+            <File>
+              <FileName>arm_elementwise_mul_s8.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\tools\make\downloads\cmsis_nn\Source\BasicMathFunctions\arm_elementwise_mul_s8.c</FilePath>
+            </File>
+            <File>
+              <FileName>arm_elementwise_mul_s16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\tools\make\downloads\cmsis_nn\Source\BasicMathFunctions\arm_elementwise_mul_s16.c</FilePath>
+            </File>
+            <File>
+              <FileName>arm_elementwise_add_s8.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\tools\make\downloads\cmsis_nn\Source\BasicMathFunctions\arm_elementwise_add_s8.c</FilePath>
+            </File>
+            <File>
+              <FileName>arm_elementwise_add_s16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\TFLM_CMSIS_NN\tensorflow\lite\micro\tools\make\downloads\cmsis_nn\Source\BasicMathFunctions\arm_elementwise_add_s16.c</FilePath>
             </File>
           </Files>
         </Group>

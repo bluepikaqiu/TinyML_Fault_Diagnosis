@@ -1,9 +1,0 @@
---target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c
--gdwarf-4
--I./RTE/_Target_1
--IC:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/Include
--IC:/Keil_V5/ARM/PACK/ARM/CMSIS-DSP/1.14.4/PrivateInclude
--IC:/Keil_V5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include
--IC:/Keil_V5/ARM/PACK/NordicSemiconductor/nRF_DeviceFamilyPack/8.52.0/Device/Include
--Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"NRF52840_XXAA SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"
--o ./objects/arm_startup_nrf52840.o "RTE/Device/nRF52840_xxAA/arm_startup_nrf52840.s"
