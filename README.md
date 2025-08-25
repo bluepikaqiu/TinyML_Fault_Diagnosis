@@ -45,7 +45,7 @@ A TinyML edge MCU fault diagnosis solution based on the CMSIS-DSP, CMSIS-NN, and
 
 **Test bench**
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU test_rig.png)
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_test_rig.png)
 
 **Only take the data from the single-axis horizontal acceleration sensor.**
 
@@ -62,35 +62,37 @@ A TinyML edge MCU fault diagnosis solution based on the CMSIS-DSP, CMSIS-NN, and
 
 
 
-The **Self-KD-TinyConv** model is a lightweight CNN model obtained in this project through customizing the TinyConv space (via AutoKeras search) and combining knowledge distillation and quantization-aware training. All others are pre-trained lightweight models.
-
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Test Accuracy vs Lightweight Models.png)
-
 **Result**
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-1_2-CF-1(on the MCU, 100 test samples).png)
+The **Self-KD-TinyConv** model is a lightweight CNN model obtained in this project through customizing the TinyConv space (via AutoKeras search) and combining knowledge distillation and quantization-aware training. All others are pre-trained lightweight models.
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-1_2-CF-2(on the MCU, 100 test samples).png)
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Test_Accuracy_vs_Lightweight_Models.png)
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-1_2-CF-3(on the MCU, 100 test samples).png)
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-1_3-CF-1(on the MCU, 100 test samples).png)
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-1_4-CF-1(on the MCU, 100 test samples).png)
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Condition-1_2-CF-1.png)
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-2_2-CF-1(on the MCU, 100 test samples).png)
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Condition-1_2-CF-2.png)
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-2_2-CF-3(on the MCU, 100 test samples).png)
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Condition-1_2-CF-3.png)
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-2_2-CF-4(on the MCU, 100 test samples).png)
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Condition-1_3-CF-1.png)
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-2_3-CF-1(on the MCU, 100 test samples).png)
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Condition-1_4-CF-1.png)
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-2_3-CF-2(on the MCU, 100 test samples).png)
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Condition-2_2-CF-1.png)
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-2_4-CF-2(on the MCU, 100 test samples).png)
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Condition-2_2-CF-3.png)
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU ML algorithms VS Resources.png)
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Condition-2_2-CF-4.png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Condition-2_3-CF-1.png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Condition-2_3-CF-2.png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Condition-2_4-CF-2.png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_ML_algorithms_VS_Resources.png)
 
 **Still under improvement**
 
