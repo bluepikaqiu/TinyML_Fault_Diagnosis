@@ -37,7 +37,7 @@ A TinyML edge MCU fault diagnosis solution based on the CMSIS-DSP, CMSIS-NN, and
 
 ​		Selected lightweight-CNN methods and classic ML methods (such as SVM， Gaussian Naive Bayes，Clustering，and so on).
 
-​		The **Self-KD-TinyConv** model is a lightweight CNN model obtained in this project through customizing the TinyConv space (via AutoKeras search) and combining knowledge distillation and quantization-aware training. All others are pre-trained lightweight models. The following figure is based on the **XJTU** dataset.
+​		The **Self-KD-TinyConv** model is a lightweight CNN model obtained in this project through customizing the TinyConv space (via AutoKeras Library) and combining knowledge distillation and quantization-aware training. All others are pre-trained lightweight models. The following figure is based on the **XJTU** dataset.
 
 ![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Test_Accuracy_vs_Lightweight_Models.png)
 
