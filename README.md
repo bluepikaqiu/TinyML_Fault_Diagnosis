@@ -41,21 +41,76 @@ A TinyML edge MCU fault diagnosis solution based on the CMSIS-DSP, CMSIS-NN, and
 
 ### Dataset and experimental platform
 
+#### XJTU-SY Bearing Datasets
+
+**Test bench**
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU test_rig.png)
+
+**Only take the data from the single-axis horizontal acceleration sensor.**
+
+**2-CF-1:** normal, outer
+**2-CF-2:** normal, inner_outer
+**2-CF-3:** normal, cage
+**2-CF-4:** normal, inner
+**2-CF-5:** normal, inner_ball_cage_outer
+**3-CF-1:** normal, outer, cage
+**3-CF-2:** normal, inner, outer
+**4-CF-1:** normal, outer, cage, inner_outer
+**4-CF-2:** normal, inner, outer, cage
+**4-CF-3:** normal, outer, inner_ball_cage_outer, inner
+
+
+
+The **Self-KD-TinyConv** model is a lightweight CNN model obtained in this project through customizing the TinyConv space (via AutoKeras search) and combining knowledge distillation and quantization-aware training. All others are pre-trained lightweight models.
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Test Accuracy vs Lightweight Models.png)
+
+**Result**
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-1_2-CF-1(on the MCU, 100 test samples).png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-1_2-CF-2(on the MCU, 100 test samples).png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-1_2-CF-3(on the MCU, 100 test samples).png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-1_3-CF-1(on the MCU, 100 test samples).png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-1_4-CF-1(on the MCU, 100 test samples).png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-2_2-CF-1(on the MCU, 100 test samples).png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-2_2-CF-3(on the MCU, 100 test samples).png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-2_2-CF-4(on the MCU, 100 test samples).png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-2_3-CF-1(on the MCU, 100 test samples).png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-2_3-CF-2(on the MCU, 100 test samples).png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU Condition-2_4-CF-2(on the MCU, 100 test samples).png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU ML algorithms VS Resources.png)
+
+**Still under improvement**
+
+
+
 #### CWRU Bearing Datasets
 
 **Test bench**
 
 ![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_CWRU_test_rig.png)
 
-DE - drive end accelerometer data
+**DE** - drive end accelerometer data
 
-FE - fan end accelerometer data
+**FE** - fan end accelerometer data
 
-BA - base accelerometer data
+**BA** - base accelerometer data
 
-time - time series data
+**time** - time series data
 
-RPM - rpm during testing
+**RPM** - rpm during testing
 
 
 
@@ -88,9 +143,7 @@ RPM - rpm during testing
 
 **Not yet completed**
 
-#### XJTU-SY Bearing Datasets
 
-**Not yet completed**
 
 ####  SKF Gearbox Datasets
 
