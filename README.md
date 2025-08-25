@@ -49,16 +49,16 @@ A TinyML edge MCU fault diagnosis solution based on the CMSIS-DSP, CMSIS-NN, and
 
 **Only take the data from the single-axis horizontal acceleration sensor.**
 
-**2-CF-1:** normal, outer
-**2-CF-2:** normal, inner_outer
-**2-CF-3:** normal, cage
-**2-CF-4:** normal, inner
-**2-CF-5:** normal, inner_ball_cage_outer
-**3-CF-1:** normal, outer, cage
-**3-CF-2:** normal, inner, outer
-**4-CF-1:** normal, outer, cage, inner_outer
-**4-CF-2:** normal, inner, outer, cage
-**4-CF-3:** normal, outer, inner_ball_cage_outer, inner
+**2-CF-1:** normal, outer;
+**2-CF-2:** normal, inner_outer;
+**2-CF-3:** normal, cage;
+**2-CF-4:** normal, inner;
+**2-CF-5:** normal, inner_ball_cage_outer;
+**3-CF-1:** normal, outer, cage;
+**3-CF-2:** normal, inner, outer;
+**4-CF-1:** normal, outer, cage, inner_outer;
+**4-CF-2:** normal, inner, outer, cage;
+**4-CF-3:** normal, outer, inner_ball_cage_outer, inner;
 
 
 
@@ -94,9 +94,7 @@ The **Self-KD-TinyConv** model is a lightweight CNN model obtained in this proje
 
 ![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_ML_algorithms_VS_Resources.png)
 
-**Still under improvement**
-
-
+**(----------But still under improvement----------)**
 
 #### CWRU Bearing Datasets
 
@@ -137,7 +135,7 @@ The **Self-KD-TinyConv** model is a lightweight CNN model obtained in this proje
 
 ![Github_TFLM_VS_TFLM-CMSIS-NN_FLASH](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_TFLM_VS_TFLM-CMSIS-NN_FLASH_RAM_Inferring_Time.png)
 
-**Still under improvement**
+**(----------Still under improvement----------)**
 
 
 
