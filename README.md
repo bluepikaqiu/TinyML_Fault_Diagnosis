@@ -41,6 +41,8 @@ A TinyML edge MCU fault diagnosis solution based on the CMSIS-DSP, CMSIS-NN, and
 
 ![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Test_Accuracy_vs_Lightweight_Models.png)
 
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Test_Accuracy_vs_Lightweight_Models_1.png)
+
 
 
 ### Dataset and experimental platform
