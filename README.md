@@ -39,9 +39,17 @@ A TinyML edge MCU fault diagnosis solution based on the CMSIS-DSP, CMSIS-NN, and
 
 ​		The **Self-KD-TinyConv** model is a lightweight CNN model obtained in this project through customizing the TinyConv space (via AutoKeras Library) and combining knowledge distillation and quantization-aware training. All others are pre-trained lightweight models. The following figure is based on the **XJTU** dataset.
 
+
+
+### MSFE-LEDS
+
+This article designs a lightweight architecture that incorporates multi-spectral feature extraction, lightweight CNN network and model compression, referred to as the **”Multi-Spectral Feature Extraction and Diagnosis Network” (MSFEDN)**. To achieve **edge FD**, the proposed MSFEDN has been integrated into low-cost MCUs, resulting in a new IEDS, which is called **MSFE-LEDS**. The following sections will gradually introduce the research methods, technical approaches, experimental scheme and feasibility analysis.
+
 ![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Test_Accuracy_vs_Lightweight_Models.png)
 
-![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Test_Accuracy_vs_Lightweight_Models_1.png)
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_XJTU_Test_Accuracy_vs_Lightweight_Models.png)
+
+![Github_0HP_1797RPM_10C_ML_Methods_Metrics](https://raw.githubusercontent.com/bluepikaqiu/TinyML_Fault_Diagnosis/main/Screenshots/Github_MSFE-LEDS-Pipeline.png)
 
 
 
